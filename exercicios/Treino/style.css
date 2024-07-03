@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*CSS da página home*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: dimgray;
@@ -67,3 +69,37 @@ footer {
 footer > p {
     margin: 0%;
 }
+
+/*CSS Nintendo*/
+
+#body_nintendo {
+    background-color: #f87959;
+}
+
+#main_nintendo {
+    background-image: /* Gradient in Hex */
+    linear-gradient(to right, #e75036 0%, 23.101719197707737%, #c91212 46.203438395415475%, 73.10171919770774%, #a70813d8 100%);
+}
+
+/*CSS PlayStation*/
+
+#body_play {
+    background-color: #8DE0F2;
+}
+
+#main_play {
+    background-image: linear-gradient(to right, #07FEFD 0%, 45.29370134465675%, #954DEF 100%);
+}
+
+/*CSS Xbox*/
+
+#body_xbox {
+    background-color: #214e3f;
+}
+
+#main_xbox {
+    background-image:linear-gradient(to right, #013624 0%, 29.1189111747851%, #00A36D 58.2378223495702%, 79.1189111747851%, #37B839 100%);
+}
+
+
+
