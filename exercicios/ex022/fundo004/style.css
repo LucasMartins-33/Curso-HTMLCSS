@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+    height: 98vh; /*Comando que utiliza 98% da área branca do body*/
+    border: 1px dashed black;
+    background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
